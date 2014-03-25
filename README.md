@@ -1,10 +1,10 @@
 #PDFMerger for PHP (PHP 5 Compatible)
 
-Original written by http://pdfmerger.codeplex.com/team/view
+Original written by http://pdfmerger.codeplex.com/team/view port to PHP 5 by https://github.com/myokyawhtun/PDFMerger
 
-## PHP 5 Compatible
+## Laravel Compatible
 
-I have made some changes in original codes to make PHPMerger compatible for PHP 5
+I have made some changes to make PHPMerger compatible for Laravel 4
 
 ### Example Usage
 ```php
