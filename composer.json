@@ -1,0 +1,23 @@
+{
+    "name": "rguedes/pdfmerger",
+    "description": "PDFMerger for PHP",
+    "keywords": ["PHP", "PDF"],
+    "homepage": "https://github.com/myokyawhtun/PDFMerger",
+    "type": "library",
+    "license": "LGPL",
+    "authors": [{
+        "name": "Myo Kyaw Htun",
+        "homepage": "https://github.com/myokyawhtun"
+    },{
+        "name": "Rolando Guedes",
+        "homepage": "https://github.com/rguedes"
+    }],
+    "require": {
+        "php": ">=5.2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "PDFMerger": "Classes/"
+        }
+    }
+}
