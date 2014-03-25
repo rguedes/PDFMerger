@@ -2,7 +2,7 @@
     "name": "rguedes/pdfmerger",
     "description": "PDFMerger for PHP",
     "keywords": ["PHP", "PDF"],
-    "homepage": "https://github.com/myokyawhtun/PDFMerger",
+    "homepage": "https://github.com/rguedes/PDFMerger",
     "type": "library",
     "license": "LGPL",
     "authors": [{
