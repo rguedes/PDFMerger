@@ -4,7 +4,7 @@
  *  PDFMerger created by Jarrod Nettles December 2009
  *  jarrod@squarecrow.com
  *
- *  v1.0.1
+ *  v1.0.2
  *
  * Class for easily merging PDFs (or specific pages of PDFs) together into one. Output to a file, browser, download, or return as a string.
  * Unfortunately, this class does not preserve many of the enhancements your original PDF might contain. It treats
@@ -32,8 +32,12 @@ class PDFMerger
      */
     public function __construct()
     {
-        require_once('fpdf/fpdf.php');
-        require_once('fpdi/fpdi.php');
+        if(!class_exists("FPDF")) {
+            require_once('fpdf/fpdf.php');
+        }
+        if(!class_exists("FPDI")) {
+            require_once('fpdi/fpdi.php');
+        }
     }
 
     /**
