@@ -1,6 +1,6 @@
 {
     "name": "rguedes/pdfmerger",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "PDFMerger for PHP",
     "keywords": ["PHP", "PDF"],
     "homepage": "https://github.com/rguedes/PDFMerger",
