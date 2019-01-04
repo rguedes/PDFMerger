@@ -5,7 +5,7 @@
     "keywords": ["PHP", "PDF"],
     "homepage": "https://github.com/rguedes/PDFMerger",
     "type": "library",
-    "license": "LGPL",
+    "license": "LGPL-3.0-or-later",
     "authors": [{
         "name": "Myo Kyaw Htun",
         "homepage": "https://github.com/myokyawhtun"
