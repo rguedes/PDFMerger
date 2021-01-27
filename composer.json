@@ -1,9 +1,9 @@
 {
-    "name": "rguedes/pdfmerger",
-    "version": "1.0.4",
-    "description": "PDFMerger for PHP",
-    "keywords": ["PHP", "PDF"],
-    "homepage": "https://github.com/rguedes/PDFMerger",
+    "name": "andreygrin/pdfmerger",
+    "version": "1.0.5",
+    "description": "PDFMerger for PHP with Laravel support",
+    "keywords": ["PHP", "PDF", "laravel"],
+    "homepage": "https://github.com/AndreyGrin/PDFMerger",
     "type": "library",
     "license": "LGPL-3.0-or-later",
     "authors": [{
@@ -12,9 +12,14 @@
     },{
         "name": "Rolando Guedes",
         "homepage": "https://github.com/rguedes"
+    },{
+        "name": "Andrey Grin",
+        "homepage": "https://github.com/AndreyGrin"
     }],
     "require": {
-        "php": ">=5.2.0"
+        "php": ">=5.2.0",
+        "setasign/fpdf": "1.8.*",
+        "setasign/fpdi": "^2.0"
     },
     "autoload": {
         "psr-0": {
