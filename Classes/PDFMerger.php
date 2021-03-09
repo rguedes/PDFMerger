@@ -63,6 +63,15 @@ class PDFMerger
     }
 
     /**
+     * Get included files list
+     * @return array
+     */
+    public function getFiles()
+    {
+        return $this->_files;
+    }
+    
+    /**
      * Merges your provided PDFs and outputs to specified location.
      * @param $outputmode
      * @param $outputpath
